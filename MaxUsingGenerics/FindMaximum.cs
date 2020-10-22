@@ -21,5 +21,9 @@ namespace MaxUsingGenerics
             T[] sorted = this.Sort();
             return sorted[sorted.Length - 1];
         }
+        public void PrintMaxValue()
+        {
+            Console.WriteLine(this.FindMaxValue());
+        }
     }
 }
